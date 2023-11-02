@@ -1,0 +1,47 @@
+.container{
+    background-color: silver;
+    border-radius: 10px;
+    padding:25px;
+    margin-top:50px;
+}
+
+.tiulo {color: red;}
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--primario);
+    /* font-family: "Krub", sans-serif; */
+    
+}
+.nav-bg{
+    background-color:aqua;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.navegacion-principal a{
+    display: block;
+    width: 100%;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 20;
+    padding: 1rem;
+    /* width: 100%; */
+}
+
+.navegacion-principal{
+    /* padding: 1.1rem; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    /* flex-direction: row;
+    justify-content: space-evenly; */
+}
+
+
+
